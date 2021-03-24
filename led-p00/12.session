@@ -1,0 +1,16 @@
+window_sizes 1920 911 450 1464 734 120
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 128012 // Led Class
+    1171 587 100 A4 0 0
+end
+show_stereotypes
+selected deploymentview_ref 128012 // src
+open
+  class_ref 128012 // Led
+  class_ref 128140 // GpioLed
+  class_ref 128268 // PcfLed
+  class_ref 128396 // HmiLed
+  deploymentview_ref 128012 // src
+end
+end

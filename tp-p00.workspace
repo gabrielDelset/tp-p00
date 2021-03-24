@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="tp-p00" Database="" Version="10.0.0">
+  <Project Name="gpioled-test" Path="gpioled-test/gpioled-test.project" Active="Yes"/>
+  <Project Name="blink" Path="blink/blink.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="blink" ConfigName="Debug"/>
+      <Project Name="gpioled-test" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="gpioled-test" ConfigName="Release"/>
+      <Project Name="blink" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

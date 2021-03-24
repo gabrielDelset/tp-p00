@@ -1,0 +1,38 @@
+format 224
+
+classcanvas 128012 class_ref 128012 // Led
+  classdiagramsettings member_max_width 0 end
+  xyz 383 86 2000
+end
+classcanvas 128140 class_ref 128140 // GpioLed
+  classdiagramsettings member_max_width 0 end
+  xyz 237 237 2000
+end
+classcanvas 128268 class_ref 128268 // PcfLed
+  classdiagramsettings member_max_width 0 end
+  xyz 393 366 2000
+end
+classcanvas 128396 class_ref 128396 // HmiLed
+  classdiagramsettings member_max_width 0 end
+  xyz 575 133 2000
+end
+relationcanvas 128524 relation_ref 128012 // <generalisation>
+  geometry VH
+  from ref 128140 z 2001 to point 272 198
+  line 129676 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128652 relation_ref 128140 // <generalisation>
+  from ref 128268 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128780 relation_ref 128268 // <generalisation>
+  geometry HVr
+  from ref 128396 z 2001 to point 606 198
+  line 129420 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

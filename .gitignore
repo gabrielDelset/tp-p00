@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+#Codelite work files
+.codelite*/
+.clang*/
+compile_commands.json
+*.mk
+*.txt
+Makefile
