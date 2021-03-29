@@ -1,0 +1,3 @@
+[submodule "poo-toolbox"]
+	path = poo-toolbox
+	url = http://github.com/epsilonrt/poo-toolbox.git
